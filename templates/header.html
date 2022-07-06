@@ -1,15 +1,15 @@
-    <div class ="beta_header" >
+<div class="beta_header">
         <div>
-            <h1 class="beta_logo">Beta</h1>
+            <h1 class="beta_logo">Pragmatic</h1>
         </div>
         <div class="beta_header_navbar">
             <a href="{% url 'articleapp:list' %}" class="beta_header_nav">
                 <span>Articles</span>
             </a>
-             <a href="{% url 'projectapp:list' %}" class="prgmatic_header_nav">
+            <a href="{% url 'projectapp:list' %}" class="beta_header_nav">
                 <span>Projects</span>
             </a>
-            <a href="{% url 'subscribeapp:list' %}" class="prgmatic_header_nav">
+            <a href="{% url 'subscribeapp:list' %}" class="beta_header_nav">
                 <span>Subscription</span>
             </a>
             {% if not user.is_authenticated %}
